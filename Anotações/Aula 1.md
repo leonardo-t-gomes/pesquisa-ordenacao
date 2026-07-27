@@ -9,6 +9,7 @@
 - Bolha(Bubble)
 - Inserção(Insert)
 - Agitação, Shell, Pente, Radix, Bucket
+- Merge,Quick, Hear
 
 
      
