@@ -4,10 +4,10 @@
   2.explicção do novo sistemas de notas, a partir do novo semestre
 
 ##conceitos base:
-     - Sort
-     - Seleção(Select)
-     - Bolha(Bubble)
-     - Inserção(Insert)
+-Sort
+-Seleção(Select)
+-Bolha(Bubble)
+-Inserção(Insert)
 
 
      
