@@ -4,10 +4,11 @@
   2.explicção do novo sistemas de notas, a partir do novo semestre
 
 ## Conceitos Base:
--Sort
--Seleção(Select)
--Bolha(Bubble)
--Inserção(Insert)
+- Sort
+- Seleção(Select)
+- Bolha(Bubble)
+- Inserção(Insert)
+- Agitação, Shell, Pente, Radix, Bucket
 
 
      
