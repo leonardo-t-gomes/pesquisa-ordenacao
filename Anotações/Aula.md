@@ -23,7 +23,7 @@
 - Como mede a complexidade: trocas + comparações
 
 
-#Aula 1 - 27/07/2026
+# Aula 1 - 27/07/2026
 
   1.Apresentação inicial da materiae topicos que abordaremos ao decorrer do ano
   2.explicção do novo sistemas de notas, a partir do novo semestre
