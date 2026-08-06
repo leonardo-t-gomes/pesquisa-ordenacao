@@ -1,3 +1,19 @@
+# Aula 04 - Premissa da Disciplina
+ -Padrão de desenvolvimento
+   -> MVC
+   ->Documentação
+  -beanchmark
+    ->Medições(complexibilidade,tempo)
+
+  -Atividade Prática sobre model , view e controller(MVC)
+
+
+
+
+
+
+
+
 # Aula 03 - Padrões de Arquitetura e Algoritmos de Ordenação
 
 ## Módulo 1: O Padrão Arquitetural MVC
