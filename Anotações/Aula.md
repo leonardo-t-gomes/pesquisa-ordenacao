@@ -7,12 +7,9 @@
 
   -Atividade Prática sobre model , view e controller(MVC)
 
-
-
-
-
-
-
+  Model - cria o link com o banco de dados, é responsavel pelos dados,chaves estrangeiras
+  Controller - são as regras de negocios, os calculos/metodos, e liga o view ao model
+  View - é responsável pela parte visual, a aparencia, a parte que o usuário vê
 
 # Aula 03 - Padrões de Arquitetura e Algoritmos de Ordenação
 
