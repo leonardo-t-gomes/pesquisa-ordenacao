@@ -1,11 +1,34 @@
-# Aula 04 - Premissa da Disciplina
- -Padrão de desenvolvimento
-   -> MVC
-   ->Documentação
-  -beanchmark
-    ->Medições(complexibilidade,tempo)
 
-  -Atividade Prática sobre model , view e controller(MVC)
+# Aula 05 
+## bolha - O (n²) 
+  - simples
+  - estável
+  - memória RAM
+  - Parte ordenada está no final da estrutura
+  - A ideia de bolha é pq o maior valor em cada  "pesado" é levado até o final da estrutura
+
+## Seleção - O (n²)
+ - Simples
+ - Instavel
+ - memória RAM
+ - parte ordenada está no inicio da estrutura
+ - A ideia da seleção é pq a cada célula de vetor, avançará, se selecione(ou laça) o menor valor para aquela posição
+
+## Inserção O(n²)
+ - Simples
+ - estável
+ - memoria RAM
+ - Parte Ordenada está no inicio da estrutura
+ - A ideia de Inserção é pq cada vetor da porção de direita de estrutura é inserido na sua posição correta na porção de esquerda 
+
+# Aula 04 - Premissa da Disciplina
+ - Padrão de desenvolvimento
+     -> MVC
+     ->Documentação
+  - beanchmark
+     ->Medições(complexibilidade,tempo)
+
+  - Atividade Prática sobre model , view e controller(MVC)
 
   Model - cria o link com o banco de dados, é responsavel pelos dados,chaves estrangeiras
   Controller - são as regras de negocios, os calculos/metodos, e liga o view ao model
