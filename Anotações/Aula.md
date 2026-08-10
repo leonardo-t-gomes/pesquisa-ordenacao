@@ -1,5 +1,5 @@
 
-# Aula 05 
+# Aula 05 - 10/08/2026
 ## Bolha - O (n²) 
   - simples
   - estável
@@ -21,12 +21,15 @@
  - Parte Ordenada está no inicio da estrutura
  - A ideia de Inserção é pq cada vetor da porção de direita de estrutura é inserido na sua posição correta na porção de esquerda 
 
-# Aula 04 - Premissa da Disciplina
+# Aula 04 - Premissa da Disciplina - 06/08/2026
  - Padrão de desenvolvimento
      -> MVC
      ->Documentação
   - beanchmark
      ->Medições(complexibilidade,tempo)
+    
+  - Medir tempo de ordenação:
+    (https://github.com/JuuJaoBRzao/Pesquisa_Ordenacao/tree/main/Exercicios/Exercicio%201)
 
   - Atividade Prática sobre model , view e controller(MVC)
 
@@ -34,11 +37,14 @@
   Controller - são as regras de negocios, os calculos/metodos, e liga o view ao model
   View - é responsável pela parte visual, a aparencia, a parte que o usuário vê
 
-# Aula 03 - Padrões de Arquitetura e Algoritmos de Ordenação
+# Aula 03 - Padrões de Arquitetura e Algoritmos de Ordenação - 03/08/2026
 
 ## Módulo 1: O Padrão Arquitetural MVC
 
 O **MVC** (*Model-View-Controller*) é uma das abordagens estruturais mais consagradas no desenvolvimento de sistemas. Sua meta central é a **divisão clara de responsabilidades**, fracionando a aplicação em três componentes integrados para promover um código mais fácil de manter, reutilizar e escalar.
+
+- MVC (Model View Controller):
+   (https://github.com/alexandrezamberlan/estruturasDeDados/tree/master/00%20-%20anosAnteriores/exemploJava_usoLista_MVC)
 
 ---
 
