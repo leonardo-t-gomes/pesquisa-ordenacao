@@ -1,6 +1,6 @@
 
 # Aula 05 
-## bolha - O (n²) 
+## Bolha - O (n²) 
   - simples
   - estável
   - memória RAM
