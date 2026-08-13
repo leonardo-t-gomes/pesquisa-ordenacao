@@ -1,3 +1,14 @@
+# Aula 06 - 13/08/2026
+## Agitação
+  - Tentativa de melhorar o Bolha(Bubble)
+  - Estável
+  - Memória Interna
+  - Um bolha duas vezes(dois 'FOR'), um que vai do inicio até o fim e outro que vai do fim até o inicio, se não encontrar troca e não executará o outro for
+
+## ATIVIDADE 
+- fazer o modelo MVC testando os metodos de ordenação(nativo e os que aprendemos)
+
+
 
 # Aula 05 - 10/08/2026
 ## Bolha - O (n²) 
