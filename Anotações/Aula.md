@@ -1,3 +1,7 @@
+# Aula 07 - 17/08/2026
+  - Trabalho( https://github.com/leotgomes2007-byte/pesquisa-ordenacao/tree/main/Codigos/Aula%206/CodigoDaAula/Minhavers%C3%A3o/C%23/source )
+  - Verificação das anotações de aula
+
 # Aula 06 - 13/08/2026
 ## Agitação
   - Tentativa de melhorar o Bolha(Bubble)
