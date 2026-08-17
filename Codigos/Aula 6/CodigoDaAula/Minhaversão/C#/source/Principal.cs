@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 
-public class Program
+public class Principal
 {
     public static void Main(string[] args)
     {
