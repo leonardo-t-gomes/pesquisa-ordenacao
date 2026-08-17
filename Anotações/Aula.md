@@ -1,5 +1,5 @@
 # Aula 07 - 17/08/2026
-  - Trabalho( https://github.com/leotgomes2007-byte/pesquisa-ordenacao/tree/main/Codigos/Aula%206/CodigoDaAula/Minhavers%C3%A3o/C%23/source )
+  - [Trabalho] ( https://github.com/leotgomes2007-byte/pesquisa-ordenacao/tree/main/Codigos/Aula%206/CodigoDaAula/Minhavers%C3%A3o/C%23/source )
   
   - Verificação das anotações de aula
 
