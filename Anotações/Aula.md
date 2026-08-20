@@ -1,3 +1,15 @@
+# Aula 08 - 20/08/2026
+## Pente(combo sort)
+ - Uso da distancia
+ - Instável
+ - Variável de comparação de valores
+ - Comparações a distancia
+ - Pré-Orientação
+ - Diminue a cada Troca
+ - Para quando a distancia for 1(dai ele vira bolha) e não tiver troca
+
+## Atividades
+
 # Aula 07 - 17/08/2026
   - [Trabalho](https://github.com/leotgomes2007-byte/pesquisa-ordenacao/tree/main/Codigos/Aula%206/CodigoDaAula/Minhavers%C3%A3o/C%23/source)
   
