@@ -1,10 +1,10 @@
 # Aula 09 - 24/08/2026
 - Resolução do desafio da ultima aula
 - Pessoa
-  ````java
   
-  import java.util.Objects;
-public class Pessoa implements Comparable<Pessoa>{
+  ````java
+    import java.util.Objects;
+    public class Pessoa implements Comparable<Pessoa>{
     String nome;
     int idade;
 
