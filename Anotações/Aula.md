@@ -2,9 +2,8 @@
 - Resolução do desafio da ultima aula
 - Pessoa
   ````java
+  
   import java.util.Objects;
-
-
 public class Pessoa implements Comparable<Pessoa>{
     String nome;
     int idade;
