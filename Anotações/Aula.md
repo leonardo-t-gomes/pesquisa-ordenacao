@@ -11,6 +11,8 @@
     A) Ao ir da esquerda para direita ele leva os maiores e na volta ele trás os menores
     B) ao olhar a distancia eu consigo trazer os menores para o início com menos comparações
 
+- Exercício da aula
+
 # Aula 09 - 24/08/2026
 - Resolução do desafio da ultima aula
 
