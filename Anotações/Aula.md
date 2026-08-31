@@ -1,3 +1,16 @@
+# Aula 10 - 24/08/2026
+  ## Correção da Prova 1 - 27/08/2026
+  - Questão 1:
+  - Questão 2:
+  A)
+  B)Estáveis- bolha,inserção,
+    Instáveis - Seleção, pente
+  - Questão 3: Comparable , CompareTo , -1, 1
+  - Questão 4: Bolha e Insersão
+  - Questão 5:
+    A) Ao ir da esquerda para direita ele leva os maiores e na volta ele trás os menores
+    B) ao olhar a distancia eu consigo trazer os menores para o início com menos comparações
+
 # Aula 09 - 24/08/2026
 - Resolução do desafio da ultima aula
 
