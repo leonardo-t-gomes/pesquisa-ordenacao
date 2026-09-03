@@ -1,4 +1,27 @@
-# Aula 10 - 24/08/2026
+# Aula 12 03/09/2026
+- **Métodos de Baixa complexidade, porém "difíceis" de implementar**
+## MERGE
+- Intercalar: empilhamento
+- Recursivo
+- Composto por 2 métodos:
+  - merge → recursivo
+  - divide homogeneamente 
+  - intercalar → ordenar no retorno do "empilhamento" → no processo de intercalação
+- Ordenação se dá na volta da recursão
+- Pra baixo vai dividindo por 2, pra cima vai intercalando
+- Complexidade: O(n. log n)
+- OBS: O processo é baseado em divisões da estrutura recursivamente, sempre no meio
+- 
+## QUICKSORT
+- pivo: quem é ordenado
+- recursivo
+- Composto por 2 métodos:
+  - quick → recursivo
+  - posicionar → ordenar o pivo
+- Complexidade: O(n. log n)
+- OBS: O processo é baseado em divisões da estrutura recursivamente, porém obedecendo a posição do pivo
+
+# Aula 11 - 31/08/2026
   ## Correção da Prova 1 - 27/08/2026
   - Questão 1:
   - Questão 2:
@@ -12,6 +35,8 @@
     B) ao olhar a distancia eu consigo trazer os menores para o início com menos comparações
 
 - Exercício da aula
+
+# Aula 10 - 27/08/2026
 
 # Aula 09 - 24/08/2026
 - Resolução do desafio da ultima aula
