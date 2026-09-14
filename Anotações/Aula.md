@@ -3,7 +3,7 @@
 - [Clique Aqui - Para ver](https://github.com/leonardo-t-gomes/pesquisa-ordenacao/tree/main/Codigos/Aula%2015)
 
 # Aula 13 - 10/09/2026
-- Atividade de Pesuqisa e Ordenação no Netbeens(criação de uma interface para comparar métodos de ordenação)
+- Atividade de Pesquisa e Ordenação no Netbeens(criação de uma interface para comparar métodos de ordenação)
 - [Atividade Mencionada](https://github.com/leonardo-t-gomes/pesquisa-ordenacao/tree/main/Codigos/Aula%2013)
 
 # Aula 12 - 03/09/2026
