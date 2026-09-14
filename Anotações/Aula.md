@@ -1,4 +1,12 @@
-# Aula 12 03/09/2026
+# Aula 14 - 14/09/2026
+- Continuação da atividade da última aula(finalização do projeto e adição dos dados em uma tabela comparativa)
+- [Clique Aqui - Para ver](https://github.com/leonardo-t-gomes/pesquisa-ordenacao/tree/main/Codigos/Aula%2015)
+
+# Aula 13 - 10/09/2026
+- Atividade de Pesuqisa e Ordenação no Netbeens(criação de uma interface para comparar métodos de ordenação)
+- [Atividade Mencionada](https://github.com/leonardo-t-gomes/pesquisa-ordenacao/tree/main/Codigos/Aula%2013)
+
+# Aula 12 - 03/09/2026
 - **Métodos de Baixa complexidade, porém "difíceis" de implementar**
 ## MERGE
 - Intercalar: empilhamento
