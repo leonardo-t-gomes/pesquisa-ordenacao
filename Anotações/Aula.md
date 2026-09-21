@@ -1,5 +1,6 @@
 # Aula 15 - 17/09/2026
 - Atividade em Aula
+- MiniCursos Sirc
 
 # Aula 14 - 14/09/2026
 - Continuação da atividade da última aula(finalização do projeto e adição dos dados em uma tabela comparativa)
