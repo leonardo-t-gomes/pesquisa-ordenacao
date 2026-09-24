@@ -1,3 +1,11 @@
+# Aula 18 - 24/09/2026
+## SHELL
+  - Baseado no Insersão
+  - Utiliza a distancia- pré - organiza a lista, acabando com o problema dos dados tartaruga
+  - colocar MERGE, QUICKSORT e SHELL
+
+# Aula 17 - 21/09/2026
+
 # Aula 15 - 17/09/2026
 - Atividade em Aula
 - MiniCursos Sirc
