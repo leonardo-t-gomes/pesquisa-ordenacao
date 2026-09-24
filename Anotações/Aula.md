@@ -2,6 +2,7 @@
 ## SHELL
   - Baseado no Insersão
   - Utiliza a distancia- pré - organiza a lista, acabando com o problema dos dados tartaruga
+## ATIVIDADE EM AULA
   - colocar MERGE, QUICKSORT e SHELL
 
 # Aula 17 - 21/09/2026
