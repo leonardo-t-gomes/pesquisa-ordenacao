@@ -1,3 +1,10 @@
+# aula 19 - 28/09/2026
+## HEAPSORT
+- HEAPMAXIMO- garantir que raiz da subarvore seja maior ou igual que seus filhos. Se isso não ocorrer, fazer as trocas
+- tenta deixar os maiores para cima, baseado em arvore dentro do vetor
+- tem uma peculariedade a primeira posição não pode ser "0", tem que descartar
+- Ineficiente, tem muitas trocas 
+
 # Aula 18 - 24/09/2026
 ## SHELL
   - Baseado no Insersão
