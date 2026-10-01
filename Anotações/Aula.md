@@ -1,4 +1,15 @@
-# aula 19 - 28/09/2026
+# Aula 20 - 01/10/2026
+## Pesquisa
+  - depende da ordenação
+  - quando a estrutura está DESORDENADA, há SOMENTE a pesquisa SEQUENCIAL
+### Sequencial
+  - A estrutura não precisa estar ordenada
+### Binária
+  - baseada na teoria de árvore, porém a estrutura precisa estar ordenada
+  - retorna somente um elemento, caso ele esteja repetido na estrutura
+
+
+# Aula 19 - 28/09/2026
 ## HEAPSORT
 - HEAPMAXIMO- garantir que raiz da subarvore seja maior ou igual que seus filhos. Se isso não ocorrer, fazer as trocas
 - tenta deixar os maiores para cima, baseado em arvore dentro do vetor
