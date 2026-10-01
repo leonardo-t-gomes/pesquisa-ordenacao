@@ -2,11 +2,15 @@
 ## Pesquisa
   - depende da ordenação
   - quando a estrutura está DESORDENADA, há SOMENTE a pesquisa SEQUENCIAL
+  - para medir a Complexidade da pesquisa usa apenas a quantidade de comparações
 ### Sequencial
   - A estrutura não precisa estar ordenada
 ### Binária
   - baseada na teoria de árvore, porém a estrutura precisa estar ordenada
   - retorna somente um elemento, caso ele esteja repetido na estrutura
+  - se tiver dois números iguais dá erro
+
+    
 
 
 # Aula 19 - 28/09/2026
