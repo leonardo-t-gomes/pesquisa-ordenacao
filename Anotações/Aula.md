@@ -1,3 +1,143 @@
+# Aula 22 - 14/10/2026
+
+### Trabalho semestral 
+1) armazene em um HashMap os dados do arquivo telephony_sessions.txt, usando como classe a classe implementada em Sessao.java
+    - ler o arquivo
+    - splitar as linhas
+    - criar um objeto do tipo Sessao
+    - adicionar (put) no HashMap
+    - usar MVC
+
+2) permite procurar um número de celular e o retorne seja os dados da sessão
+
+3) DESAFIO: pesquise sobre uso de threads e tente procurar N celulares ao mesmo tempo
+
+### Hash 
+- Função de espalhamento, ou seja, um dado é armazenado ou pesquisado na estrutura via um código de endereçamento
+- **Tabela Hash**: estrutura de dados que armazena os dados e não possui índice (não podendo usar for, por exemplo, porque não existe posições [0], [1], etc)
+- **Função Hash**: cálculo de endereçamento para armazenar e buscar elementos na estrutura
+- Hash não é possível ordenar, por isso que em uma table se usa list, por exemplo
+
+```java
+import java.util.HashSet;
+
+public class Sessao {
+    public String numeroCelular;
+    public String dadosSessao;
+
+    public Sessao(String numeroCelular, String dadosSessao) {
+        this.numeroCelular = numeroCelular;
+        this.dadosSessao = dadosSessao;
+    }
+
+    @Override
+    public String toString() {
+        return "Sessao [numeroCelular=" + numeroCelular + ", dadosSessao=" + dadosSessao + "]";
+    }
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((numeroCelular == null) ? 0 : numeroCelular.hashCode());
+        return result;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Sessao other = (Sessao) obj;
+        if (numeroCelular == null) {
+            if (other.numeroCelular != null)
+                return false;
+        } else if (!numeroCelular.equals(other.numeroCelular))
+            return false;
+        return true;
+    }
+}
+```
+
+### Diferença de HashMap x HashSet
+
+| Característica | HashMap | HashSet |
+| :--- | :--- | :--- |
+| **Interface** | Implementa a interface `Map`. | Implementa a interface `Set`. |
+| **Estrutura** | Armazena dados em **pares de Chave e Valor** (`Key-Value`). | Armazena **apenas elementos únicos** (valores isolados). |
+| **Duplicatas** | Chaves **não** podem ser duplicadas (se repetir, o valor é sobrescrito). Valores podem ser repetidos. | **Não** permite elementos duplicados. Tentativas de adicionar itens repetidos são ignoradas. |
+| **Método de inserção** | Utiliza o método `put(chave, valor)`. | Utiliza o método `add(elemento)`. |
+| **Consulta** | Busca por meio da chave (`get(chave)`). | Verifica apenas se o elemento existe (`contains(elemento)`). |
+
+### Exemplo de `HashMap`
+O `HashMap` é ideal quando você precisa associar um identificador (chave) a um dado (valor), como um dicionário ou um cadastro de usuários por ID.
+
+```java
+import java.util.HashMap;
+
+public class ExemploHashMap {
+    public static void main(String[] args) {
+        // Criando um HashMap onde a chave é o ID (Integer) e o valor é o Nome (String)
+        HashMap<Integer, String> usuarios = new HashMap<>();
+
+        // Adicionando elementos com put()
+        usuarios.put(1, "Ana Silva");
+        usuarios.put(2, "Carlos Souza");
+        usuarios.put(3, "Mariana Lima");
+
+        // Tentando adicionar uma chave já existente (substitui o valor anterior)
+        usuarios.put(1, "Ana Silva Atualizada");
+
+        // Buscando um valor pela chave
+        System.out.println("Usuário ID 1: " + usuarios.get(1)); 
+        // Saída: Usuário ID 1: Ana Silva Atualizada
+
+        // Exibindo todos os registros
+        System.out.println("Todos os usuários: " + usuarios);
+    }
+}
+```
+
+### Exemplo de `HashMap`
+O `HashSet` é ideal quando você precisa garantir a unicidade de uma coleção de itens e não se importa com pares, apenas se o item está presente ou não (ex: lista de CPFs cadastrados, e-mails únicos).
+
+```java
+import java.util.HashSet;
+
+public class ExemploHashSet {
+    public static void main(String[] args) {
+        // Criando um HashSet de Strings para armazenar frutas
+        HashSet<String> frutas = new HashSet<>();
+
+        // Adicionando elementos com add()
+        frutas.add("Maçã");
+        frutas.add("Banana");
+        frutas.add("Laranja");
+
+        // Tentando adicionar um elemento duplicado
+        boolean adicionouMaçãNovamente = frutas.add("Maçã"); 
+        System.out.println("Conseguiu adicionar 'Maçã' de novo? " + adicionouMaçãNovamente); 
+        // Saída: false (já existia)
+
+        // Verificando se um elemento existe
+        System.out.println("Contém Banana? " + frutas.contains("Banana")); 
+        // Saída: true
+
+        // O tamanho será 3, pois duplicatas foram ignoradas
+        System.out.println("Total de frutas únicas: " + frutas.size());
+    }
+}
+```
+
+### Tipos de tratamento de colisões
+- Listas encadeadas
+
+###  Tipos de Hash
+- Open addressing ou closed hashing
+
 # Aula 21 - 05/10/2026
 ## Pesquisa
 ### Árvores TRIE
