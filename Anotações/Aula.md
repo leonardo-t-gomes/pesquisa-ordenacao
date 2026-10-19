@@ -1,3 +1,12 @@
+# Aula 24 - 19/10/2026
+- Exercicio sobre Hash
+- [Código](https://github.com/leonardo-t-gomes/pesquisa-ordenacao/tree/main/Codigos/Aula%2024)
+
+# Aula 23 - 15/10/2026
+- Exercicio sobre telefonia 
+- [Código](https://github.com/leonardo-t-gomes/pesquisa-ordenacao/tree/main/Codigos/aula%2021)
+
+
 # Aula 22 - 14/10/2026
 
 ### Trabalho semestral 
