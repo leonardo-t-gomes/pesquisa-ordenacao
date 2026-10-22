@@ -1,4 +1,39 @@
-# Aula 24 - 19/10/2026
+# Aula 25
+- Revisão
+- Exercicios
+  
+
+1)No universo de programação, baseada em Estruturas de Dados e Orientação a Objetos, há classes ou estruturas para armazenar dados em memória. Cite e explique as 3 principais estruturas em que programadores armazenam dados em memória e conseguem acessar dados de maneira mais eficaz.
+
+R:Listas, Arvores e Tabelas Hash
+
+2)Dentro dos métodos de pesquisa, há o sequencial e o binário. Entretanto, a pesquisa binária mostra-se muito mais eficaz. Para usá-la, como a estrutura deve se apresentar e qual a filosofia de trabalho da pesquisa binária.
+
+R: A estrutura precisa estar ordenada e a filosofia de trabalho baseada em árvore binária de pesquisa
+
+3)No universo de Tabelas Hash (técnica de espalhamento), os dados são armazenados e acessados rapidamente, com uma complexidade O(1). Qual o recurso utilizado para que isso aconteça.
+
+R: Função Hash, ou função de cálculo de endedeço sobre um chave
+
+4)Tendo como base o algoritmo de pesquisa binária, contabilize e mostra quantas comparações ocorrem na estrutura até o número 24 ser localizado na lista.
+
+IMAGEM
+
+OBS: codigo da pesquisa binária
+def binaria(numero, lista)
+    int = 0
+    fim  = lengt(lista)-1
+    whele(ini <= fim)     
+        meio = ini((ini + fim)/2)
+        if(numero == lista [meio]):
+            return meio
+        else if(numero < lista[meio]):
+            fim = meio - 1
+        else:
+            ini = meio + 1
+    return -1
+
+ # Aula 24 - 19/10/2026
 - Exercicio sobre Hash
 - [Código](https://github.com/leonardo-t-gomes/pesquisa-ordenacao/tree/main/Codigos/Aula%2024)
 
